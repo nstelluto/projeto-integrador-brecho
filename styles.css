@@ -1,0 +1,1784 @@
+@charset "UTF-8";
+
+/* Cor da tela do html */
+html{background-color:#fffaf2;
+}
+
+/* Cor do body e o tamanho da fonte */
+body{
+    background-color:white;
+    font-size-adjust:100%;
+}
+
+/* margem do header, nav, article, aside, section, footer */
+header, nav, article, aside, section, footer{
+    margin:20px;
+}
+/*Cabeçalho*/
+header{
+    margin:2px;
+    background-image: url(../imagens/brecho1.jpg);
+    background-repeat: no-repeat, repeat;
+	/*Imagem:https://wall.alphacoders.com/big.php?i=489934 */
+}
+/* Cor e tamanho do menu*/
+ nav {margin: 16px 10px 18px 10px;
+     background-color: blanchedalmond;
+     padding: 1px;
+ } 
+/* Fonte: estilo, tamanho - Paragrafo*/
+p{
+	font-family:Arial, Helvetica,sans-serif;
+ 	font-size: 1.1em;
+	text-align: justify;
+	padding:10px;
+}
+
+/* display em linha */
+ul li{display:inline;}
+
+/* Tamanho, cor, espaçamento e formatação do texto do menu */
+ul li a{
+    padding: 10px 30px 10px 30px;
+	color:#cf866e;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 1.1em; 
+	
+}
+
+/* Menu depois de clicado - cor da fonte e do fundo */
+ul li a:hover{
+    color: white; 
+    background-color:#d7b07f ;
+}
+
+/* Tamanho da tela do body */
+body {
+	width: 980px;
+	margin: 0px auto 0px auto;
+}
+
+/* Tamanho e localização do article */
+article {
+	width: 570px;
+	margin-top: 0px;
+	float: left;
+}
+
+/* Tamanho, localização e cor da id section1 */
+.section1 {
+	width: 310px;
+	margin-top: 0px;
+	float: left;
+    background-color: blanchedalmond;
+}
+
+/* Tamanho, localização e cor da id tenmasculina */
+.tenmasculina {
+	width: 570px;
+	margin-top: -430px;
+	float: left;
+	margin-left: 14px;
+    background-color: blanchedalmond;
+	padding-right: 23px;
+	border-radius: 10px;
+}
+.tenmasculina p{
+	font-size: 1.0em;
+	font-family:Times, Times New Roman, serif;
+	margin-top: -4px;
+}
+.tenmasculina .p3{
+	padding-top:0px;
+	margin: 10px;
+    font-family:Arial, Verdana, sans-serif ;
+	font-size: 1.2em;
+	margin-top: 9px;
+}
+.redes .p4{
+	padding-top:1px;
+	margin: 0px;
+    font-family: Arial, Verdana, sans-serif;
+	font-size: 1.1em;
+	margin-top: 3px;
+}
+
+.promoh1{
+	margin: 0px;
+	font-size: 1.8em;
+	font-family: Arial, Verdana, sans-serif;
+	color: black;
+}
+
+.novh1{
+	margin: 1px;
+	font-size: 1.8em;
+	font-family: Arial, Verdana, sans-serif;
+	color: black;
+	float: left;
+	position:relative;
+    top: -216px;
+}
+
+.novi1{
+    float: left;
+    position:relative;
+    top: -150px;
+    right: 598px; 
+	margin: 2px;
+	padding: 10px;
+	padding-left: 20px;
+	padding-top:15px;
+	background-color: blanchedalmond;
+	border-radius: 10px;
+}
+.novi1 p{
+   font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+}
+.novi1 h5{
+   font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+}
+.novi2{
+    float: left;
+    position:relative;
+    top: -470px;
+    right: -214px; 
+	margin: 1px;
+	padding: 1px;
+	padding-left: 11px;
+	padding-right: 19px;
+	padding-top:15px;
+	padding-bottom:13px;
+	background-color: blanchedalmond;
+	border-radius: 10px;
+}
+.nov2{
+	 position:relative;
+    top: -1px;
+    right: -10.9px;
+}
+.novi2 .input3{
+   position:relative;
+    left: 33px;
+}
+.novi2 p{
+   font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+}
+.novi2 h5{
+   font-family: Times, Times New Roman, serif;
+   font-size: 0.9em;
+}
+.novi3{
+    float: left;
+    position:relative;
+    top: -472px;
+    right: -219px; 
+	margin: 2px;
+	padding: 10px;
+	padding-left: 20px;
+	padding-top:15px;
+	background-color: blanchedalmond;
+	padding-bottom: 13px;
+	border-radius: 10px;
+}
+.novi3 p{
+   font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+}
+.novi3 h5{
+   font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+}
+/* Tamanho, localização e cor da id colecao */
+.colecao {
+	width: 330px;
+	margin-top:-890px;
+	float: right;
+    background-color: blanchedalmond;
+	border-radius: 10px;
+}
+.colecao p{
+	font-size: 1.0em;
+	font-family:Times, Times New Roman, serif;
+	margin-top: -25px;
+}
+
+.colecao .p1{
+	padding-top:0px;
+	margin: 23px;
+    font-family: Arial, Verdana, sans-serif;
+	font-size: 1.2em;
+	margin-top: 10px;
+}
+/* Tamanho, localização e cor da id redes - redes sociais */
+/*Fonte das imagens das redes sociais:http://blog.tamiressobraldesign.com.br/2015/07/icones-das-redes-sociais-ii.html*/
+.redes {
+	width: 330px;
+	margin-top: -744px;
+	float: right;
+    clear: both;
+    background-color:#ffffff;
+    color: white;
+	border-radius: 10px;
+	border: solid 2px darksalmon; 
+}
+.redes h4{
+	font-size: 0.9em;
+	font-family: Arial, Verdana, sans-serif;
+	color:darksalmon;
+	margin: 13px;
+}
+.redesocial5{
+    float: left;
+    position:relative;
+    top: -6px;
+    right: -39px; 
+	border: 1px;
+	margin: 2px;
+	padding: 3px;
+}
+.redesocial6{
+    float: left;
+    position:relative;
+    top: -4px;
+    right: -36px; 
+	border: 1px;
+	margin: 2px;
+	padding: 3px;
+}
+.redesocial7{
+    float: left;
+    position:relative;
+    top: -4px;
+    left: 27px; 
+	border: 1px;
+	margin: 2px;
+	padding: 3px;
+}
+.redesocial8{
+    float: left;
+    position:relative;
+    top: -4px;
+    left: 27px; 
+	border: 1px;
+	margin: 2px;
+	padding: 3px;
+}
+
+
+/* Tamanho, localização e cor da id tenfeminina */
+.tenfeminina {
+	width: 330px;
+	margin-top: -617px;
+	float: right;
+    clear: both;
+    background-color: blanchedalmond;
+	border-radius: 10px;
+}
+.tenfeminina p{
+	font-size: 1.0em;
+	font-family:Times, Times New Roman, serif;
+	margin-top: -5px;
+}
+.tenfeminina .p2{
+	padding-top:0px;
+	margin: 60px;
+	margin-bottom: 5px;
+    font-family:Arial, Verdana, sans-serif ;
+	font-size: 1.2em;
+	margin-top: 10px;
+}
+
+/* Tamanho, localização e cor da id section2 */
+.section2 {
+	width: 330px;
+	margin-top: 0px;
+	float: left;  
+}
+
+/* Tamanho, localização e cor da id aside2 */
+.aside2 {
+	width: 330px;
+	margin-top: 0px;
+	float: right;
+}
+
+/* Tamanho do cabeçalho */
+header { padding-top: 1px;
+        padding-bottom: 1px;
+		margin-bottom: 20px;
+}
+
+/* Formatação da tabela de medidas */
+.tabelas{
+	float: right;
+	position:relative;
+    top:-10px;
+	margin: 40px;
+	padding:10px;
+	padding-top:10px;
+	background-color:bisque;
+	border-radius: 10px;
+}
+.tabelas h3{
+	font-family: sans-serif;
+	margin: 10px;
+}
+.tabelas p{
+	font-size: 0.9em;
+	font-family: serif;
+	float: left;
+   position:relative;
+    top:25px; 
+	margin:0px;
+	right: 0px;
+	margin-right:440px;
+}
+table{
+	float: right;
+	position: relative;
+	top:-132px;
+}
+.titulotable{
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 1.0em;
+	border: solid 2px darksalmon;
+	border-bottom: none;
+}
+table, tr, td, th {
+    padding: 2px;
+	margin: 2px;
+    border: 2px solid darksalmon ; 
+	text-align: center;
+}
+thead {background-color: darksalmon ;}
+tbody {background-color:bisque;}
+/* Fim da formatação da tabela de medidas*/
+
+/* Tamanho, localização e cor da id aside5 */
+.aside5 {
+	width: 440px;
+	margin-top: 100px;
+	float: right;
+    background-color: white;
+}
+
+/* Tamanho e localização da id aside2 */
+.article2 {
+	width: 460px;
+	margin-top: 0px;
+	float: left;
+}
+
+/* Tamanho, localização e fonte da id sobrenos */
+.sobrenos {
+	width: 940px;
+	margin-top: 20px; 
+    float:inherit; 
+    font-size: 0.9em;
+}
+
+/* Tamanhoe localização da id imgsobrenos - imagem */
+.imgsobrenos {
+    position:relative;
+    top: 12px; 
+    left: 20px; 
+	border-radius: 10px;
+}
+
+/* Tamanho, localização, fonte e cor da id luiza */
+.luiza {
+	width: 700px;
+	margin-top: 1px;
+	float: left;
+    background-color: blanchedalmond;
+    padding: 3px;
+    margin-bottom: 15px;
+    font-size: 0.9em;
+	border-radius: 10px;
+}
+
+/* Tamanho e localização da id imgluiza */
+.imgluiza {
+    margin-right:20px;
+    padding-bottom: 17px;
+    position:relative;
+    top: 8px;
+    left: 8px;  
+    float: left; 
+	border-radius: 10px;
+}
+
+/* Tamanho, localização, fonte e cor da id clara */
+.clara {
+	width: 700px;
+	margin-top: 1px;
+	float: right;
+    background-color: blanchedalmond;
+    padding: 3px;
+    margin-bottom: 15px;
+    font-size: 0.9em;
+	border-radius: 10px;
+}
+
+/* Tamanho e localização da id imgluiza */
+.imgclara {
+    margin-right:20px;
+    position:relative;
+    top: 14px;
+    left: 8px;  
+    float: right;  
+	border-radius: 10px;
+}
+
+/* Formatação de fonte do título sobre o brecho */
+.sobrebrecho{
+    font-family: sans-serif;
+    font-size: 1.8em;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Rodapé */
+footer {
+clear:both;
+background-color:blanchedalmond; 
+margin:2px;
+margin-bottom: 13px;
+margin-top: 10px;
+color:darksalmon;
+}
+
+/* Localização,tamnho e tipo da fonte - Endereço e contato */
+.ende1 {
+	font-family:Arial, Verdana, sans-serif;
+    font-size: 1.0em;
+	float: left;
+	margin: 2px;
+}
+.in a {
+	font-family:Times, Times New Roman, serif;
+    font-size: 1.0em;
+	position: relative;
+	top:37px;
+	right: 110px;
+	clear: right;
+	text-transform:capitalize;
+	text-decoration: none;
+	color: darksalmon;
+}
+.so a {
+	font-family:Times, Times New Roman, serif;
+    font-size: 1.0em;
+	position: relative;
+	top:37px;
+	right: 110px;
+	clear: right;
+	text-transform:capitalize;
+	text-decoration: none;
+	color: darksalmon;
+}
+.fe a {
+	font-family:Times, Times New Roman, serif;
+    font-size: 1.0em;
+	position: relative;
+	top:37px;
+	right: 110px;
+	clear: right;
+	text-transform:capitalize;
+	text-decoration: none;
+	color: darksalmon;
+}
+.ma a {
+	font-family:Times, Times New Roman, serif;
+    font-size: 1.0em;
+	position: relative;
+	top:37px;
+	right:27px;
+	clear: right;
+	text-transform:capitalize;
+	text-decoration: none;
+	color: darksalmon;
+}
+.du a {
+	font-family:Times, Times New Roman, serif;
+    font-size: 1.0em;
+	position: relative;
+	top:36px;
+	right: 26px;
+	clear: right;
+	text-transform:capitalize;
+	text-decoration: none;
+	color: darksalmon;
+}
+.co a {
+	font-family:Times, Times New Roman, serif;
+    font-size: 1.0em;
+	position: relative;
+	top:36px;
+	right: 26px;
+	clear: right;
+	text-transform:capitalize;
+	text-decoration: none;
+	color: darksalmon;
+}
+li{
+	list-style-type: none;
+}
+
+/* fim do endereço e contato */
+
+/* Tamnho, localização e tipo da fonte - desenvolvido por: */
+.desenvolvido{
+   font-family:Arial, Verdana,sans-serif;
+    font-size: 0.9em;
+	float: right;
+	position:relative;
+    top: -119px;
+    left:0px; 
+}
+
+/* Posição, tamanho e tipo das fontes do brechó*/
+.br{
+	font-family:Times, Times New Roman, serif;
+	float: right;
+	position:relative;
+    top: 0px;
+    left:240px; 
+	font-size: 0.8em;
+}
+
+/* Posição e tamanho das imagens das redes sociais*/
+.redesocial1{
+    float: left;
+    position:relative;
+    top: -56px;
+    right: -340px; 
+	border: 1px;
+	margin: 2px;
+	padding: 3px;
+}
+.redesocial2{
+    float: left;
+    position:relative;
+    top: -56px;
+    right: -340px; 
+	border: 1px;
+	margin: 2px;
+	padding: 3px;
+}
+.redesocial3{
+    float: left;
+    position:relative;
+    top: -56px;
+    left: 340px; 
+	border: 1px;
+	margin: 2px;
+	padding: 3px;
+}
+.redesocial4{
+    position:relative;
+    top: -56px;
+    left: 340px; 
+	border: 1px;
+	margin: 2px;
+	padding: 3px;
+}
+/* Fim da rede social */
+/* Fim do rodapé */
+
+/* Promoções do Index - localização */
+.prom1{
+    float: left;
+    position:relative;
+    top: 60px;
+    right: 600px; 
+	margin: 3px;
+	padding: 7px;
+	padding-left: 20px;
+	padding-top:15px;
+	padding-bottom: 7px;
+	background-color: blanchedalmond;
+	border-radius: 10px;
+}
+
+.prom1 p{
+   font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+}
+.prom1 h5{
+   font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+}
+.prom2{
+   float: left;
+    position:relative;
+    top: -257px;
+    left: 214px; 
+	margin: 1px;
+	padding: 10px;
+	padding-left: 20px;
+	padding-bottom: 7px;
+	padding-top:15px;
+	background-color: blanchedalmond;
+	border-radius: 10px;
+}
+.prom2 p{
+   font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+}
+.prom2 h4{
+	font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+}
+.prom3{
+     float: left;
+    position:relative;
+    top: -257px;
+    left: 220px; 
+	margin:1px;
+	padding-right: 13px;
+	padding-left: 17px;
+	padding-bottom: 7px;
+	padding-top:15px;
+	background-color: blanchedalmond;
+	border-radius: 10px;
+}
+.prom3 p{
+   font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+}
+.prom3 h5{
+   font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+}
+/* Fim das promoções*/
+
+/* Botões das promoções*/
+.input1{
+	padding:10px 10px;
+	font-size: 1.0em;
+	font-family: serif;
+	background: #DC143C;
+	color:#fff;
+	border-radius:10px;
+	border-color:#fff;
+	text-transform:uppercase;
+	position: relative;
+	bottom:4px;
+	left: 20px;	
+}
+.input2{
+	padding:10px 10px;
+	font-size: 1.0em;
+	font-family: serif;
+	background: #DC143C;
+	color:#fff;
+	border-radius:10px;
+	border-color:#fff;
+	text-transform:uppercase;
+	position: relative;
+	bottom:4px;
+	left: 20px;	
+}
+.input3{
+	padding:10px 10px;
+	font-size: 1.0em;
+	font-family: serif;
+	background: #DC143C;
+	color:#fff;
+	border-radius:10px;
+	border-color:#fff;
+	text-transform:uppercase;
+	position: relative;
+	bottom:4px;
+	left: 20px;	
+}
+/* Fim dos botões promoções*/
+
+/* Formatação do formulário contato*/
+form {
+	margin-top:50px;
+	margin-bottom:50px;
+}
+.div1{
+	clear: both;
+	padding:0px 0px;
+	font-size: 1.1em;
+	font-family: serif;
+	text-transform:capitalize;	
+}
+
+.div2{
+	padding:0px 0px;
+	font-size: 1.1em;
+	font-family: serif;
+	text-transform:capitalize;	
+}
+.div3{
+	padding:0px 0px 0px;
+	font-size: 1.2em;
+	font-family: serif;
+	text-transform:capitalize;	
+}
+.nome{
+	width: 390px;
+	padding:6px 0px 6px 0px;
+	border-radius: 5px;
+}
+.email{
+	width: 390px;
+	padding:6px 0px 6px 0px;
+	border-radius: 5px;
+}
+.mensagem{
+	width: 390px;
+	padding:6px 0px 6px 0px;
+	border-radius: 5px;
+	padding-bottom: 60px;
+}
+.button1{
+	padding:6px 10px;
+	font-size: 1.0em;
+	font-family: serif;
+	background-color: darksalmon;
+	color:#fff;
+	border-radius:6px;
+	border-color:#fff;
+	text-transform:uppercase;
+	position: relative;
+	bottom: -4px;
+	left: 316px;	
+}
+/* Fim da formatação do formulário contato*/
+
+/*Endereço Maps*/
+.maps{
+	font-family: Times, Times New Roman, serif;
+	font-size: 1.2em;
+}
+
+/*Botões Dúvidas*/
+.duv1{
+	margin-top:70px ;
+	padding:30px 96px;
+	font-size: 1.0em;
+	font-family:sans-serif;
+	background-color: floralwhite;
+	color: darksalmon;
+	border-radius:10px;
+	border-color: floralwhite;
+	text-transform:uppercase;
+	position: relative;
+	bottom:-35px;
+	left: -450px;
+}
+.duv2{
+	margin-top: 0px;
+	padding:30px 98px;
+	font-size: 1.0em;
+	font-family: sans-serif;
+	background-color: floralwhite;
+	color: darksalmon;
+	border-radius:10px;
+	border-color:floralwhite;
+	text-transform:uppercase;
+	position: relative;
+	bottom:69px;
+	left: 500px;
+}
+.duv3{
+	padding:30px 80px;
+	font-size: 1.0em;
+	font-family: serif;
+	background-color: floralwhite;
+	color: darksalmon;
+	border-radius:10px;
+	border-color: floralwhite;
+	text-transform:uppercase;
+	position: relative;
+	bottom:4px;
+	left: 150px;
+}
+.duv4{
+	padding:30px 104px;
+	font-size: 1.0em;
+	font-family: serif;
+	background-color: floralwhite;
+	color: darksalmon;
+	border-radius:10px;
+	border-color: floralwhite;
+	text-transform:uppercase;
+	position: relative;
+	bottom:106px;
+	left: 500px;
+}
+/*Fim dos botões*/
+/*Formatação da reserva*/
+formreserva {
+	margin-top:50px;
+	margin-bottom:50px;
+}
+.div1{
+	padding:10px 10px;
+	font-size: 1.1em;
+	font-family: serif;
+	text-transform:capitalize;	
+}
+
+.div2{
+	padding:10px 10px;
+	font-size: 1.1em;
+	font-family: serif;
+	text-transform:capitalize;	
+}
+.div3{
+	padding:10px 10px;
+	font-size: 1.2em;
+	font-family: serif;
+	text-transform:capitalize;	
+}
+.div4{
+	padding:10px 10px;
+	font-size: 1.2em;
+	font-family: serif;
+	text-transform:capitalize;	
+}
+.div5{
+	padding:10px 10px;
+	font-size: 1.2em;
+	font-family: serif;
+	text-transform:capitalize;	
+}
+.div6{
+	padding:0px 13px;
+	font-size: 1.3em;
+	font-family: serif;
+	text-transform:capitalize;	
+}
+.nomec{
+	width: 330px;
+	padding:6px 0px 6px 0px;
+	border-radius: 5px;
+}
+.email{
+	width: 394px;
+	padding:6px 0px 6px 0px;
+	border-radius: 5px;
+}
+.cep{
+	width: 410px;
+	padding:6px 0px 6px 0px;
+	border-radius: 5px;
+	margin-bottom: -40px;
+}
+.tel{
+	width: 380px;
+	padding:6px 0px 6px 0px;
+	border-radius: 5px;
+}
+.produto{
+	width: 390px;
+	padding:6px 0px 6px 0px;
+	border-radius: 5px;
+}
+.estado{
+	padding:5px 90px 5px 140px;
+	border-radius: 5px;
+}
+.reproduto{
+	font-family: sans-serif;
+	font-size: 1.3em;
+	margin: 100px 0px 16px 30px;
+}
+.comodeseja{
+	font-family: sans-serif;
+	font-size: 1.1em;
+}
+.refiel{
+	margin-left: 7px;
+	float: left; 
+	padding: 10px;
+	padding-left: 87px;
+	padding-right: 87px;
+}
+.rbrecho{
+	font-family: sans-serif;
+	font-size: 1.0em;
+}
+.rcorreios{
+	font-family: sans-serif;
+	font-size: 1.0em;
+}
+.retirar{
+	margin: 10px;
+}
+.retirar2{
+	margin: 10px;
+}
+.reser3{
+	position: relative;
+	width: 445px;
+	margin-top:-567px;
+	float: right;
+    background-color: blanchedalmond;
+}
+
+.button2{
+	padding:6px 10px;
+	font-size: 1.0em;
+	font-family: serif;
+	background-color: darksalmon;
+	color:#fff;
+	border-radius:6px;
+	border-color:#fff;
+	text-transform:uppercase;
+	position: relative;
+	bottom: -45px;
+	left: -102px;	
+}
+
+.asidereservar{
+	float:left;
+	padding: 10px;
+}
+/*Fim da formatação reserva*/
+/*Formatação da Pagína feminia*/
+.fem1{
+	float: left;
+    position:relative;
+    top: 0px;
+    right: -40px; 
+	margin: 3px;
+	padding: 20px;
+	padding-left: 58px;
+	padding-top:30px;
+	background-color:bisque;
+	border-radius: 15px;
+}
+.fem2 p{
+	position: relative;
+	left: -8px;
+}
+
+.fem2{
+	float: left;
+    position:relative;
+    top: 0px;
+    right: -71px; 
+	margin: 3px;
+	padding: 20px;
+	padding-left: 58px;
+	padding-top:30px;
+	background-color:bisque;
+	border-radius: 15px;
+}
+.fem1 p{
+	position: relative;
+	left: 
+}
+
+.fem3{
+	float: left;
+    position:relative;
+    top: 0px;
+    right: -100px; 
+	margin: 3px;
+	padding: 20px;
+	padding-left: 58px;
+	padding-top:30px;
+	background-color:bisque;
+	border-radius: 15px;
+}
+.fem3 p{
+	position: relative;
+	left: -16px;
+}
+.promoh2{
+	margin: 44px;
+	font-size: 1.3em;
+	font-family: Arial, Verdana, sans-serif;
+	color: black;
+	margin-bottom: -10px;
+	margin-top: -10px;
+}
+
+.input4{
+	padding:15px 50px;
+	font-size: 1.0em;
+	font-family: serif;
+	background: #DC143C;
+	color:#fff;
+	border-radius:10px;
+	border-color:#fff;
+	text-transform:uppercase;
+	position: relative;
+	bottom:4px;
+	left: -12px;	
+}
+.input41{
+	padding:15px 50px;
+	font-size: 1.0em;
+	font-family: serif;
+	background: #DC143C;
+	color:#fff;
+	border-radius:10px;
+	border-color:#fff;
+	text-transform:uppercase;
+	position: relative;
+	bottom:4px;
+	left: -11px;	
+}
+.input42{
+	padding:15px 50px;
+	font-size: 1.0em;
+	font-family: serif;
+	background: #DC143C;
+	color:#fff;
+	border-radius:10px;
+	border-color:#fff;
+	text-transform:uppercase;
+	position: relative;
+	bottom:4px;
+	left: -10px;	
+}
+.fem5{
+	float:left;
+    position:relative;
+    top: 0px;
+    right: -41px; 
+	margin: 1px;
+	padding: 1px;
+	padding-left: 6px;
+	padding-top:10px;
+	background-color:bisque;
+	border-radius: 10px;
+}
+.fem5 p{
+   font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+   position: relative; left: 2px;
+}
+.fem5 h4{
+	font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+}
+.fem5 h4{
+	text-align: center;
+}
+.fem6{
+	float:left;
+    position:relative;
+    top: 0px;
+    right: -51px; 
+	margin: 1px;
+	padding: 1px;
+	padding-left: 6px;
+	padding-top:10px;
+	background-color:bisque;
+	border-radius: 10px;
+}
+.fem6 p{
+   font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+	position: relative; left: 2px;
+}
+.fem6 h4{
+	font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+}
+.fem6 h4{
+	text-align: center;
+}
+.fem7{
+	float:left;
+    position:relative;
+    top: 0px;
+    right: -60px; 
+	margin: 1px;
+	padding: 1px;
+	padding-left: 6px;
+	padding-top:10px;
+	background-color:bisque;
+	border-radius: 10px;
+}
+.fem7 p{
+   font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+   position: relative; left: 2px;
+}
+.fem7 h4{
+	font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+}
+.fem8 h4{
+	text-align: center;
+}
+.fem8{
+	float:left;
+    position:relative;
+    top: 0px;
+    right: -69px; 
+	margin: 1px;
+	padding: 1px;
+	padding-left: 6px;
+	padding-top:10px;
+	background-color:bisque;
+	border-radius: 10px;
+}
+.fem8 p{
+   font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+   position: relative; left: 2px;
+}
+.fem8 h4{
+	font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+}
+.fem9{
+	float:right;
+    position:relative;
+    top: 0px;
+    left:-44px;  
+	margin: 1px;
+	padding: 1px;
+	padding-left: 10px;
+	padding-top:10px;
+	background-color:bisque;
+	border-radius: 10px;
+}
+.fem9 p{
+   font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+   position: relative; left: 2px;
+}
+.fem9 h4{
+	font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+}
+.fem9 h4{
+	text-align: center;
+}
+.vestuario{
+	margin: 27px;
+	font-size: 2.0em;
+	font-family: Arial, Verdana, sans-serif;
+	color: black;
+	margin-bottom: 10px;
+	margin-top: 420px;
+}
+.fora1{
+	position: relative;
+	right: 10000px;
+	margin: -5px;
+}
+.fora2{
+	position: relative;
+	right: 10000px;
+	margin: -8px;
+}
+.fora3{
+	position: relative;
+	right: 10000px;
+	margin: -8px;
+}
+/*Fim da pagina feminina*/
+/*Reformatação da reserva*/
+.reser3{
+	position: absolute;
+	right: 180px;
+	top: 822px;
+}
+.termosre{
+	font-size:1.2em;
+	text-align:center ;
+	font-family:Arial, Verdana, sans-serif;
+	margin: 10px;
+}
+.reser3 p{
+	font-family: Times, Times New Roman, serif;
+	font-size: 1.1em;
+	margin: 5px;
+}
+.reser3 form{
+	font-size: 1.0em;
+	font-family: Times, Times New Roman, serif;
+	margin: 5px;
+}
+/*Fim da reformatação reserva*/
+/*Formatação da pagina masculina*/
+.mas1{
+	float: left;
+    position:relative;
+    top: 0px;
+    right: -40px; 
+	margin: 3px;
+	padding: 20px;
+	padding-left: 58px;
+	padding-top:30px;
+	background-color:#e5f0fd;
+	border-radius: 15px;
+}
+.mas1 p{
+   font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+}
+.mas1 h4{
+	font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+}
+.inputmas{
+	padding:15px 50px;
+	font-size: 1.0em;
+	font-family: serif;
+	background: #02738e;
+	color:#fff;
+	border-radius:10px;
+	border-color:#fff;
+	text-transform:uppercase;
+	position: relative;
+	bottom:4px;
+	left: -14px;	
+}
+
+.mas2{
+	float: left;
+    position:relative;
+    top: 0px;
+    right: -86px; 
+	margin: 3px;
+	padding: 20px;
+	padding-left: 58px;
+	padding-top:30px;
+	background-color:rgb(229, 240, 253);
+	border-radius: 15px;
+}
+
+.mas2 p{
+   font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+}
+.mas2 h4{
+	font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+}
+.inputmas1{
+	padding:15px 50px;
+	font-size: 1.0em;
+	font-family: serif;
+	background: #02738e;
+	color:#fff;
+	border-radius:10px;
+	border-color:#fff;
+	text-transform:uppercase;
+	position: relative;
+	bottom:4px;
+	left: -14px;	
+}
+.mas3{
+	float: left;
+    position:relative;
+    top: 0px;
+    right: -130px; 
+	margin: 3px;
+	padding: 20px;
+	padding-left: 58px;
+	padding-top:30px;
+	background-color: rgb(229, 240, 253);
+	border-radius: 15px;
+}
+.mas3 p{
+   font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+}
+.mas3 h4{
+	font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+}
+.inputmas2{
+	padding:15px 50px;
+	font-size: 1.0em;
+	font-family: serif;
+	background: #02738e;
+	color:#fff;
+	border-radius:10px;
+	border-color:#fff;
+	text-transform:uppercase;
+	position: relative;
+	bottom:4px;
+	left: -14px;	
+}
+.mas4{
+	float:left;
+    position:relative;
+    top: 0px;
+    right: -45px; 
+	margin: 1px;
+	padding: 1px;
+	padding-left: 6px;
+	padding-top:10px;
+	background-color:rgb(229, 240, 253);
+	border-radius: 10px;
+}
+.mas4 p{
+   font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+}
+.mas4 h4{
+	font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+}
+.mas5{
+	float:right;
+    position:relative;
+    top: 0px;
+    left:-52px;  
+	margin: 1px;
+	padding: 1px;
+	padding-left: 10px;
+	padding-top:10px;
+	background-color:rgb(229, 240, 253);
+	border-radius: 10px;
+}
+.mas5 p{
+   font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+}
+.mas5 h4{
+	font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+}
+.mas6{
+	float:right;
+    position:relative;
+    top: 0px;
+    left:-57px;  
+	margin: 1px;
+	padding: 1px;
+	padding-left: 10px;
+	padding-top:10px;
+	background-color:rgb(229, 240, 253);
+	border-radius: 10px;
+}
+.mas6 p{
+   font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+}
+.mas6 h4{
+	font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+}
+.mas7{
+	float:right;
+    position:relative;
+    top: 0px;
+    left:-62px;  
+	margin: 1px;
+	padding: 1px;
+	padding-left: 10px;
+	padding-top:10px;
+	background-color:rgb(229, 240, 253);
+	border-radius: 10px;
+}
+.mas7 p{
+   font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+}
+.mas7 h4{
+	font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+}
+.mas8{
+	float:right;
+    position:relative;
+    top: 0px;
+    left:-65px;  
+	margin: 1px;
+	padding: 1px;
+	padding-left: 10px;
+	padding-top:10px;
+	background-color:rgb(229, 240, 253);
+	border-radius: 10px;
+}
+.mas8 p{
+   font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+}
+.mas8 h4{
+	font-family: Times, Times New Roman, serif;
+   font-size: 1.0em;
+}
+/*Fim da formatação da pagina masculina*/
+/*Formatação da pagina compras*/
+.compras{
+	width: 500px;
+	height: 400px;
+	background-color: blanchedalmond;
+	margin: 12px;
+	padding: 10px;
+	padding-top: 1px;
+	float: left;
+	border-radius: 10px;
+}
+.compras h1{
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 1.4em;
+	text-align: center;	
+}
+.compras p{
+	font-size: 1.0em;
+	font-family: serif;
+	text-align: justify;
+	margin: 3px;
+}
+/*Fim da formatação compras*/
+/*Formatação da outras*/
+.asideoutras{
+	width: 390px;
+	height: 300px;
+	background-color: white;
+	float: right;
+	margin: 13px;
+	padding: 10px;
+	padding-top: 4px;
+	border-radius: 10px;
+}
+.asideoutras h2{
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 1.3em;
+	text-align: center;
+}
+/*Fim das outras*/
+/*Botões das dúvidas*/
+.dv2{
+	padding:12px 60px;
+	font-size: 1.0em;
+	font-family: serif;
+	background: #DC143C;
+	color:#fff;
+	border-radius:10px;
+	border-color:#fff;
+	text-transform:uppercase;
+	position: relative;
+	bottom:14px;
+	left: 75px;	
+}
+.dv3{
+	padding:12px 44px;
+	font-size: 1.0em;
+	font-family: serif;
+	background: #DC143C;
+	color:#fff;
+	border-radius:10px;
+	border-color:#fff;
+	text-transform:uppercase;
+	position: relative;
+	bottom:50px;
+	left: 75px;	
+}
+.dv4{
+	padding:12px 66px;
+	font-size: 1.0em;
+	font-family: serif;
+	background: #DC143C;
+	color:#fff;
+	border-radius:10px;
+	border-color:#fff;
+	text-transform:uppercase;
+	position: relative;
+	bottom:90px;
+	left: 75px;	
+}
+/*Fim dos botões dúvidas*/
+.asideoutras h6{
+	position: relative;
+	left: 1000px;
+}
+/*Formatação da página anuncie*/
+.anuncie{
+	width: 450px;
+	height: 490px;
+	background-color: blanchedalmond;
+	margin: 12px;
+	padding: 11px;
+	padding-top: 1px;
+	float: left;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+.anuncie h1{
+	font-family:Arial, Verdana, sans-serif;
+	font-size: 1.4em;
+	text-align: center;	
+}
+.anuncie p{
+	font-size: 1.0em;
+	font-family: serif;
+	text-align: justify;
+	margin: 3px;
+}
+/*Fim da página anuncie*/
+/*Formatação da página pagamento*/
+.pagamento{
+	width: 450px;
+	height: 410px;
+	background-color: blanchedalmond;
+	margin: 12px;
+	padding: 11px;
+	padding-top: 1px;
+	float: left;
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+.pagamento h1{
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 1.4em;
+	text-align: center;	
+}
+.pagamento p{
+	font-size: 1.1em;
+	font-family: serif;
+	text-align: justify;
+	margin: 3px;
+}
+/*Fim da página pagamento*/
+/*Formatação do botão*/
+.dv33{
+	padding:12px 63px;
+	font-size: 1.0em;
+	font-family: serif;
+	background: #DC143C;
+	color:#fff;
+	border-radius:10px;
+	border-color:#fff;
+	text-transform:uppercase;
+	position: relative;
+	bottom:50px;
+	left: 75px;	
+}
+/*Fim da formatação do botões*/
+/*Imagem de pagamento*/
+.pague{
+	padding: 5px;
+	width: 350px;
+	height: 55px;
+	position: relative;
+	left: 40px;
+	top:-7px;
+}
+/*Fim da formatação da imagem*/
+/*Fim do logo*/
+.imagem{
+	margin-left: 10px;
+	margin-top: 4px;
+	width: 193px;
+	height: 100px
+}
+/*Fim da formatação do logo*/
+/*Fim do titulo duvida*/
+.duvida h1{
+	width: 700px;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 1.4em;
+	margin: 15px;
+	text-align: center;
+	padding: 20px;
+	padding-bottom: 30px;
+	padding-left: 100px;
+}
+/*Fim do titulo*/
+/*Formatação das imagens da pagina masculina*/
+.nov22{
+	border-radius: 10px;
+	padding: 3px;
+	padding-top: 1px;
+}
+.nov33{
+	border-radius: 10px;
+	padding: 3px;
+	padding-top: 1px;
+}
+.jaqueta{
+	border-radius: 10px;
+       position: relative;
+	   left: -2px;
+}
+/*fim da formatação das imagens*/
+/*Formatação dos botões masculinos*/
+.inputmas8 {
+	padding:10px 10px;
+	font-size: 1.0em;
+	font-family: serif;
+	background: #02738e;
+	color:#fff;
+	border-radius:10px;
+	border-color:#fff;
+	text-transform:uppercase;
+	position: relative;
+	bottom:4px;
+	left: 20px;	
+}
+.inputmas4 {
+	padding:10px 10px;
+	font-size: 1.0em;
+	font-family: serif;
+	background: #02738e;
+	color:#fff;
+	border-radius:10px;
+	border-color:#fff;
+	text-transform:uppercase;
+	position: relative;
+	bottom:4px;
+	left: 20px;	
+}
+.inputmas7 {
+	padding:10px 10px;
+	font-size: 1.0em;
+	font-family: serif;
+	background: #02738e;
+	color:#fff;
+	border-radius:10px;
+	border-color:#fff;
+	text-transform:uppercase;
+	position: relative;
+	bottom:4px;
+	left: 20px;	
+}
+.inputmas6 {
+	padding:10px 10px;
+	font-size: 1.0em;
+	font-family: serif;
+	background: #02738e;
+	color:#fff;
+	border-radius:10px;
+	border-color:#fff;
+	text-transform:uppercase;
+	position: relative;
+	bottom:4px;
+	left: 20px;	
+}
+.inputmas5 {
+	padding:10px 10px;
+	font-size: 1.0em;
+	font-family: serif;
+	background: #02738e;
+	color:#fff;
+	border-radius:10px;
+	border-color:#fff;
+	text-transform:uppercase;
+	position: relative;
+	bottom:4px;
+	left: 20px;	
+}
+/*Fim da formatação do botão masculino*/
+/*Fim da formatação tabela*/
+.tabelas1{
+	float: right;
+	position:relative;
+    top:-10px;
+	margin: 40px;
+	padding:10px;
+	padding-top:10px;
+	background-color:rgb(229, 240, 253);
+	border-radius: 10px;
+}
+.tabelas1 h3{
+	font-family: sans-serif;
+	margin: 10px;
+}
+.tabelas1 p{
+	font-size: 0.9em;
+	font-family: serif;
+	float: left;
+   position:relative;
+    top:25px; 
+	margin:0px;
+	right: 0px;
+	margin-right:440px;
+}
+.table1{
+	float: right;
+	position: relative;
+	top:-132px;
+}
+.titulotable1{
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 1.0em;
+	border: solid 2px #02738e;
+	border-bottom: none;
+}
+.table1 {
+    padding: 2px;
+	margin: 2px;
+    border: 2px solid #02738e ; 
+	text-align: center;
+}
+.table1 td {
+    padding: 2px;
+	margin: 2px;
+    border: 2px solid #02738e ; 
+	text-align: center;
+}
+.table1 th {
+    padding: 2px;
+	margin: 2px;
+    border: 2px solid #02738e ; 
+	text-align: center;
+}
+.table1 t {
+    padding: 2px;
+	margin: 2px;
+    border: 2px solid #02738e ; 
+	text-align: center;
+}
+.table1 thead {background-color: #097f9b ;}
+.table1 tbody {background-color:rgb(229, 240, 253);}
+
+/*Fim da formatação tabela*/
+/*Formatação das imagens gerais: arredondamento*/
+
+.img1{
+	border-radius: 10px;
+}
+.pro3{
+	border-radius: 10px;
+}
+.nov1{
+	border-radius: 10px;
+}
+.nov2{
+	border-radius: 10px;
+}
+.nov3{
+	border-radius: 10px;
+}
+.img2{
+	border-radius: 10px;
+	position: relative;
+	left: -10px;
+}
+.img3{
+	border-radius: 10px;
+	position: relative;
+	left: -3px;
+}
+.imgf5{
+	border-radius: 10px;
+}
+.img4{
+	border-radius: 10px;
+	position: relative;
+	left: -9px;
+}
+.nov3{
+	border-radius: 10px;
+}
+.nov21{
+	border-radius: 10px;
+}
+/*Fim do arredondamento das imagens*/
+
